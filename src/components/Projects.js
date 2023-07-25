@@ -151,10 +151,10 @@ export const Projects = () => {
             <h3>This Website</h3>
             <img src={react} alt="HTML/CSS and React" className='tools'></img>
             <ul>
-              <li>Implemeted a responsive design using React Bootstrap.</li>
+              <li>Implemeted a responsive design using ReactJS and React Bootstrap.</li>
               <li>Utilized AOS (Animate on Scroll) and Animate.css libraries to add animations.</li>
             </ul>
-              <a href="" target="_blank">
+              <a href="https://github.com/inaas7/inaas7.github.io/tree/master" target="_blank">
                 <button className='source-code'><span>Source Code</span></button>
               </a> 
                         
