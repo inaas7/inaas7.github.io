@@ -24,10 +24,11 @@ export const Skills = () => {
                     <h5>Languages</h5>
                     <p>Python<br></br>
                       Java<br></br>
-                      C/C++<br></br>
+                      C and C++<br></br>
                       HTML/CSS<br></br>
                       JavaScript<br></br>
                       Bash<br></br>
+                      C#<br></br>
                     </p>
                   </div>
                   <br></br>
@@ -40,6 +41,7 @@ export const Skills = () => {
                       ReactJS<br></br>
                       Linux/Unix (Shell)<br></br>
                       Git<br></br>
+                      Unity<br></br>
                       Canva<br></br>
                       Figma<br></br>
                       Microsoft Office<br></br>

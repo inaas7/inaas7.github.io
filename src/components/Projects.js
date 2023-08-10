@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Container, Row, Col, Tab, Nav, Card, Button } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,6 +16,8 @@ import html from "../assets/img/html.png"
 import jquery from "../assets/img/jquery.png"
 import python from "../assets/img/python.png"
 import food from "../assets/img/food.png"
+import cosmicCarnage from "../assets/img/cosmic-carnage.png"
+import unityAndC from "../assets/img/unity-and-c.png"
 
 export const Projects = () => {
   
@@ -28,6 +30,34 @@ export const Projects = () => {
       <Container>
       <h2>Projects</h2>
       <br></br><br></br><br></br>
+        <Row className="project-card"  data-aos="fade-up" data-aos-duration="1000">
+          <Col lg={6} xs={12} className="project-card__img">
+            <img src={cosmicCarnage} alt="Cosmic Carnage" />
+          </Col>
+          <Col lg={6} xs={12} className="project-card__content">
+            <h3>Cosmic Carnage</h3>  
+            <img src={unityAndC} alt="Unity And C#" className='tools'></img>
+            <ul>
+              <li>Created an immersive 2D space shooter game across three dynamic levels, saving the galaxy from an alien invasion.</li>
+              <li>Utilized Unity and C# to craft captivating gameplay: player movement, shooting dynamics, enemy AI, and health and scoring systems.</li>
+              <li>Designed visually striking space-themed assets, enhancing the game's immersive environment.</li>
+              <li>Implemented seamless level transitions for enhanced player engagement.</li>
+            </ul>
+            <Row>
+              <Col lg={4} xs={6}>
+                <a href="https://github.com/inaas7/cosmic-carnage" target="_blank" rel="noreferrer">
+                  <button className='source-code'><span>Source Code</span></button>
+                </a>
+              </Col>
+              <Col lg={4} xs={6}>
+                <a href="https://inaas.itch.io/cosmic-carnage" target="_blank" rel="noreferrer">
+                  <button className='source-code'><span>View Project</span></button>
+                </a>
+              </Col>
+            </Row>            
+          </Col>
+        </Row>
+
         <Row className="project-card"  data-aos="fade-up" data-aos-duration="1000">
           <Col lg={6} xs={12} className="project-card__img">
             <img src={boggle} alt="" />
@@ -102,13 +132,13 @@ export const Projects = () => {
             </ul>
             <Row>
               <Col lg={4} xs={6}>
-                <a href="https://github.com/inaas7/art-by-inaas" target="_blank">
+                <a href="https://github.com/inaas7/art-by-inaas" target="_blank" rel="noreferrer">
                   <button className='source-code'><span>Source Code</span></button>
                 </a>
               </Col>
               <Col lg={4} xs={6}>
-                <a href="https://inaas7.github.io/art-by-inaas/" target="_blank">
-                  <button className='source-code'><span>Demo</span></button>
+                <a href="https://inaas7.github.io/art-by-inaas/" target="_blank" rel="noreferrer">
+                  <button className='source-code'><span>View Project</span></button>
                 </a>
               </Col>
             </Row>                        
@@ -130,12 +160,12 @@ export const Projects = () => {
             </ul>
             <Row>
               <Col lg={4} xs={6}>
-                <a href="https://github.com/inaas7/food-recommender" target="_blank">
+                <a href="https://github.com/inaas7/food-recommender" target="_blank" rel="noreferrer">
                   <button className='source-code'><span>Source Code</span></button>
                 </a>
               </Col>
               <Col lg={4} xs={6}>
-                <a href="https://devpost.com/software/food-recommender" target="_blank">
+                <a href="https://devpost.com/software/food-recommender" target="_blank" rel="noreferrer">
                   <button className='source-code'><span>Demo</span></button>
                 </a>
               </Col>
@@ -154,7 +184,7 @@ export const Projects = () => {
               <li>Implemeted a responsive design using ReactJS and React Bootstrap.</li>
               <li>Utilized AOS (Animate on Scroll) and Animate.css libraries to add animations.</li>
             </ul>
-              <a href="https://github.com/inaas7/inaas7.github.io/tree/master" target="_blank">
+              <a href="https://github.com/inaas7/inaas7.github.io/tree/master" target="_blank" rel="noreferrer">
                 <button className='source-code'><span>Source Code</span></button>
               </a> 
                         
