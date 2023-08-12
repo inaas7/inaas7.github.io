@@ -38,10 +38,9 @@ export const Projects = () => {
             <h3>Cosmic Carnage</h3>  
             <img src={unityAndC} alt="Unity And C#" className='tools'></img>
             <ul>
-              <li>Created an immersive 2D space shooter game across three dynamic levels, saving the galaxy from an alien invasion.</li>
+              <li>Created a 2D space shooter game with a storyline across three dynamic levels, saving the galaxy from an alien invasion.</li>
               <li>Utilized Unity and C# to craft captivating gameplay: player movement, shooting dynamics, enemy AI, and health and scoring systems.</li>
               <li>Designed visually striking space-themed assets, enhancing the game's immersive environment.</li>
-              <li>Implemented seamless level transitions for enhanced player engagement.</li>
             </ul>
             <Row>
               <Col lg={4} xs={6}>
