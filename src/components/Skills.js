@@ -22,7 +22,7 @@ export const Skills = () => {
                 <div className="col-md-4">
                   <div className="card1" data-aos="fade-up" data-aos-duration="1000">
                     <h5>Languages</h5>
-                    <p>Python<br></br>
+                    <p>Python (Pandas, Streamlit, Plotly)<br></br>
                       Java<br></br>
                       C and C++<br></br>
                       HTML/CSS<br></br>
@@ -44,7 +44,7 @@ export const Skills = () => {
                       Unity<br></br>
                       Canva<br></br>
                       Figma<br></br>
-                      Microsoft Office<br></br>
+                      Jupyter Notebook<br></br>
                     </p>
                   </div>
                   <br></br>

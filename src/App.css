@@ -498,8 +498,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-.tools-python{
+.project .tools-python{
   height:32px;
+  width: auto;
+  margin-top: 15px;
+}
+
+.project .tools-streamlit{
+  height:22px;
   width: auto;
   margin-top: 15px;
 }

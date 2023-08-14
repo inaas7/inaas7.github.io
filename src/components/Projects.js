@@ -18,6 +18,9 @@ import python from "../assets/img/python.png"
 import food from "../assets/img/food.png"
 import cosmicCarnage from "../assets/img/cosmic-carnage.png"
 import unityAndC from "../assets/img/unity-and-c.png"
+import tiktok from "../assets/img/tiktok.jpg"
+import pythonpandas from "../assets/img/python-pandas.png"
+import streamlit from "../assets/img/streamlit.png"
 
 export const Projects = () => {
   
@@ -53,6 +56,30 @@ export const Projects = () => {
                   <button className='source-code'><span>View Project</span></button>
                 </a>
               </Col>
+            </Row>            
+          </Col>
+        </Row>
+
+        <Row className="project-card"  data-aos="fade-up" data-aos-duration="1000">
+          <Col lg={6} xs={12} className="project-card__img">
+            <img src={tiktok} alt="TikTok Data Science App" />
+          </Col>
+          <Col lg={6} xs={12} className="project-card__content">
+            <h3>TikTok Data Science App</h3>  
+            <Row>    
+                <img src={pythonpandas} alt="JavaFX" className='tools-python'></img>
+                <img src={streamlit} alt="Git" className='tools-streamlit'></img>    
+            </Row>
+            <ul>
+              <li>Built a real-time TikTok feed with hashtag-based search, fetching trending videos and metadata for analysis using TikTok API.</li>
+              <li>Implemented an ETL pipeline to preprocess and transform raw TikTok data.</li>
+              <li>Utilized Pandas and Python for data manipulation.</li>
+              <li>Designed a Streamlit dashboard with Plotly charts for interactive metric visualizations.</li>
+            </ul>
+            <Row>
+                <a href="https://github.com/inaas7/tiktok-data-science-app" target="_blank" rel="noreferrer">
+                  <button className='source-code'><span>Source Code</span></button>
+                </a>
             </Row>            
           </Col>
         </Row>
