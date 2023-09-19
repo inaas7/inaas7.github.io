@@ -21,6 +21,8 @@ import unityAndC from "../assets/img/unity-and-c.png"
 import tiktok from "../assets/img/tiktok.jpg"
 import pythonpandas from "../assets/img/python-pandas.png"
 import streamlit from "../assets/img/streamlit.png"
+import mindcraft from "../assets/img/mindcraft.jpg"
+import opencv from "../assets/img/opencv.png"
 
 export const Projects = () => {
   
@@ -33,6 +35,26 @@ export const Projects = () => {
       <Container>
       <h2>Projects</h2>
       <br></br><br></br><br></br>
+        <Row className="project-card"  data-aos="fade-up" data-aos-duration="1000">
+          <Col lg={6} xs={12} className="project-card__img">
+            <img src={mindcraft} alt="MindCraft" />
+          </Col>
+          <Col lg={6} xs={12} className="project-card__content">
+            <h3>MindCraft - Hack the North</h3>  
+            <img src={opencv} alt="OpenCV" className='tools'></img>
+            <ul>
+              <li>This project lets players control in-game actions in Minecraft through natural body movements, including eye tracking.</li>
+              <li>Utilized OpenCV, Python, and MediaPipe to create a script that translates real-time video camera input from an Xbox Kinect Sensor into in-game Minecraft actions.</li>
+              <li>Used AdHawk MindLink Glasses and the AdHawk Python SDK to track eye movements on the screen, enabling players to rotate their in-game view.</li>
+            </ul>
+            <Row>
+                <a href="https://github.com/Hack-the-North-2023/MindCraft" target="_blank" rel="noreferrer">
+                  <button className='source-code'><span>View Project</span></button>
+                </a>
+            </Row>              
+          </Col>
+        </Row>
+
         <Row className="project-card"  data-aos="fade-up" data-aos-duration="1000">
           <Col lg={6} xs={12} className="project-card__img">
             <img src={cosmicCarnage} alt="Cosmic Carnage" />
