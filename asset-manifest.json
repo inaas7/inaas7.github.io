@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.26486c45.css",
-    "main.js": "/static/js/main.651dd5a7.js",
+    "main.js": "/static/js/main.25d5578f.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/skills-bg.png": "/static/media/skills-bg.1268123217b3bd53b3e8.png",
     "static/media/art-blog.png": "/static/media/art-blog.6d8168fdb09ac8f34c8a.png",
@@ -9,6 +9,7 @@
     "static/media/banner-bg.jpg": "/static/media/banner-bg.5d54c9a5b10bc8015fb9.jpg",
     "static/media/color-sharp.png": "/static/media/color-sharp.a8a7c166affa3e8a92d0.png",
     "static/media/header-img.png": "/static/media/header-img.c6f3b1fd4a4095f11699.png",
+    "static/media/mindcraft.jpg": "/static/media/mindcraft.48bb78cde84c5ffb0d3f.jpg",
     "static/media/cosmic-carnage.png": "/static/media/cosmic-carnage.fa00f8a22f0e0dafd15f.png",
     "static/media/tiktok.jpg": "/static/media/tiktok.c491ecb20521123000af.jpg",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -22,6 +23,7 @@
     "static/media/chat-server.png": "/static/media/chat-server.03380c7be2640a4b0f1e.png",
     "static/media/python.png": "/static/media/python.1acd2fa3690d357279b5.png",
     "static/media/JavaFX_Logo.png": "/static/media/JavaFX_Logo.59c9f39cfbf319dc0491.png",
+    "static/media/opencv.png": "/static/media/opencv.25baa281301649d3e7bf.png",
     "static/media/boggle.png": "/static/media/boggle.59aa3d9c5b9e1044935b.png",
     "static/media/C.png": "/static/media/C.bbbbbabc8c191bfb99bf.png",
     "static/media/python-pandas.png": "/static/media/python-pandas.ea459fe18c1897766d83.png",
@@ -30,15 +32,14 @@
     "static/media/logo.png": "/static/media/logo.066a05d95cd8c5e1b931.png",
     "static/media/unity-and-c.png": "/static/media/unity-and-c.1c95089cadea0218a78a.png",
     "static/media/jquery.png": "/static/media/jquery.47ca805077fc8964062a.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "main.26486c45.css.map": "/static/css/main.26486c45.css.map",
-    "main.651dd5a7.js.map": "/static/js/main.651dd5a7.js.map",
+    "main.25d5578f.js.map": "/static/js/main.25d5578f.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26486c45.css",
-    "static/js/main.651dd5a7.js"
+    "static/js/main.25d5578f.js"
   ]
 }
